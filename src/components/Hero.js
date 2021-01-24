@@ -24,7 +24,7 @@ export default class Hero extends React.Component {
     render () {
         return (
             <div className='hero-container' id={this.props.id}>
-                <h1>Kobe Brooks YUUR</h1>
+                <h1>Kobe Brooks</h1>
                 <h2>THE UNIQUE PROGRAMMER</h2>
                 <div className='hero-btns'>
                     <Popup
