@@ -44,7 +44,7 @@ function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link 
-                                activeClass="active"
+                                activeClass="active1"
                                 to="Hero" 
                                 spy={true}
                                 smooth={true}
@@ -57,7 +57,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link 
-                                activeClass="active"
+                                activeClass="active1"
                                 to="Cards" 
                                 spy={true}
                                 smooth={true}
@@ -70,7 +70,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link 
-                                activeClass="active"
+                                activeClass="active1"
                                 to="Projects"
                                 spy={true}
                                 smooth={true}
@@ -83,7 +83,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link 
-                                activeClass="active"
+                                activeClass="active1"
                                 to="Resume"
                                 spy={true}
                                 smooth={true}
@@ -96,7 +96,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link 
-                                activeClass="active"
+                                activeClass="active1"
                                 to="Resume"
                                 spy={true}
                                 smooth={true}

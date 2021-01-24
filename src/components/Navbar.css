@@ -67,7 +67,7 @@
   transition: all 0.2s ease-out;
 }
 
-.nav-item > .active {
+.nav-item > .active1 {
   border-bottom: 4px solid #fff;
 }
 
