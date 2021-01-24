@@ -1,0 +1,150 @@
+.Popmodal {
+  font-size: 12px;
+  /* color: black; */
+  border-style: solid;
+  border-color: linear-gradient(
+    90deg,
+    rgb(28, 27, 27) 0%,
+    rgb(26, 23, 23) 100%
+  );
+  background: rgb(214, 214, 214);
+  height: 30vh;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.Popmodal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.Popmodal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+.Popmodal > .content2 {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+.Popmodal > .list_wrap {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+.list_wrap > .list {
+  padding-left: 50px;
+}
+
+.Popmodal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.Popmodal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+/* animation */
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+.popup-content {
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+@media screen and (max-width: 2200px) {
+  .Popmodal {
+    height: 40vh;
+  }
+
+  .Popmodal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+
+  .Popmodal > .content2 {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+
+  .Popmodal > .list_wrap {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Popmodal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+
+  .Popmodal > .content2 {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+
+  .Popmodal > .list_wrap {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Popmodal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+
+  .Popmodal > .content2 {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+
+  .Popmodal > .list_wrap {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 11px;
+  }
+}
