@@ -27,6 +27,7 @@ export default class Projects extends React.Component {
                                 content2="The problems presented when developing this mobile application came from connecting react-native to Google Firebase and developing a database model that
                                 sufficed. Firebase was new to the team but through hardwork and communication we built a great mobile application that we hope to put in production one day."
                                 list={['React Native', 'Firebase', 'Git']}
+                                head= 'Knowledge Used:'
                             />
                              <PopCard 
                                 src= {report}
