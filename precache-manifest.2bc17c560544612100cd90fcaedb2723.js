@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfcd2e3950c64d98d7348ff5fbe3ee94",
+    "revision": "c37860007e1c6cbe0e0a1b0b0195e530",
     "url": "/resume/index.html"
   },
   {
-    "revision": "38449f99a04d4b06fcc6",
-    "url": "/resume/static/css/main.be027332.chunk.css"
+    "revision": "415c15ae04276645357b",
+    "url": "/resume/static/css/main.8dd48da1.chunk.css"
   },
   {
-    "revision": "39945453e3c94086af38",
-    "url": "/resume/static/js/2.3516b9f6.chunk.js"
+    "revision": "a9941c7d3709d4772cef",
+    "url": "/resume/static/js/2.ab43771b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/resume/static/js/2.3516b9f6.chunk.js.LICENSE.txt"
+    "url": "/resume/static/js/2.ab43771b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38449f99a04d4b06fcc6",
-    "url": "/resume/static/js/main.579ed121.chunk.js"
+    "revision": "415c15ae04276645357b",
+    "url": "/resume/static/js/main.0eaf3b27.chunk.js"
   },
   {
     "revision": "fc900ccfdbda6584c8c4",
     "url": "/resume/static/js/runtime-main.5bd274de.js"
   },
   {
-    "revision": "2f82011a41e8dc1675fb73b0042ee96b",
-    "url": "/resume/static/media/ResP1.2f82011a.pdf"
+    "revision": "4c88af1dd16624395c5acfbad1b1784f",
+    "url": "/resume/static/media/F(X).4c88af1d.JPG"
+  },
+  {
+    "revision": "eb1b2d788016d6104bc4ee731ed468c6",
+    "url": "/resume/static/media/ResP1.eb1b2d78.pdf"
   },
   {
     "revision": "19567d6e9c6c8db575e14292ad0f072d",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "904d97cee2076cc014bcb1b552b6bede",
     "url": "/resume/static/media/ccboard.904d97ce.jpg"
+  },
+  {
+    "revision": "c01fe7af49551aaabf1e6635b1f956dc",
+    "url": "/resume/static/media/jpm.c01fe7af.png"
   },
   {
     "revision": "7c068e2be7aa669db9b34d2c75ef291d",
