@@ -42,8 +42,8 @@ export default class Hero extends React.Component {
                                 <div className="picture"><img src={profile} alt="Kobe Profile" className="picture_p"></img></div>
                                 <div className="content">
                                     <p>
-                                    &nbsp;&nbsp;&nbsp;&nbsp; Hey! My name is Kobe Brooks and I am currently a third-year student at Oberlin College. While pursuing a major in Computer Science
-                                        I also participate on the varsity football team and am an active board member of the Black Student Athlete Group on campus. I have broad
+                                    &nbsp;&nbsp;&nbsp;&nbsp; Hey! My name is Kobe Brooks and I graduated from Oberlin College in January of 2022. While pursuing a major in Computer Science
+                                        I participated on the varsity football team and was an active board member of the Black Student Athlete Group on campus. I have broad
                                         developmental experience ranging from front-end work with HTML, CSS, JavaScript, and React to back-end work with SQL, SSRS, Python, 
                                         and Java.
                                     </p>

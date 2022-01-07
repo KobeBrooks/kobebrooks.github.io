@@ -5,6 +5,7 @@ import report from './images/reportsample.jpg'
 import poll from './images/obiepoll.jpg'
 import ard from './images/ardWeather.PNG'
 import web from './images/web.PNG'
+import party from './images/F(X).JPG'
 
 export default class Projects extends React.Component {
 
@@ -16,7 +17,18 @@ export default class Projects extends React.Component {
                 <div className="cards__container">
                     <div className="cards__wrapper">
                         <ul className="cards__items">
-                            <PopCard 
+                            <PopCard
+                                src= {party}
+                                text="Made front and back end solutions building a mobile social app for campus."
+                                label="F(x)"
+                                path="/"
+                                content="Done in collaboration with classmates, this mobile application allows students to connect across campus. Not only that, but it allows students to communicate
+                                anonymously while searching and actively engaging in social activies in the area."
+                                content2="The problems presented when developing this mobile application came from connecting react-native to Google Firebase and developing a database model that
+                                sufficed. Firebase was new to the team but through hardwork and communication we built a great mobile application that we hope to put in production one day."
+                                list={['React Native', 'Firebase', 'Git']}
+                            />
+                             <PopCard 
                                 src= {report}
                                 text="Contributed heavily to the production of a clerk interface for county court room workers."
                                 label='Court Room Report Interface'
@@ -31,6 +43,7 @@ export default class Projects extends React.Component {
                                 list={['HTML/CSS', 'React', 'Git']}
                                 head='Knowledge Used:'
                             />
+
                             <PopCard
                                 src= {poll}
                                 text="Aided in the backend and decision making process for an on campus polling website."
@@ -45,7 +58,38 @@ export default class Projects extends React.Component {
                                 list={['HTML/CSS', 'React', 'Python (Flask)', 'SQLAlchemy', 'Git']}
                                 head='Knowledge Used:'
                             />
+                        </ul>
+                        <ul className="cards__items">
                            
+                           
+                           
+                           <PopCard
+                            src= {web}
+                            text="Developed my resume website during COVID-19 quarantine."
+                            label='Resume Website'
+                            path='/'
+                            content='Bored while quarantining for months, what do you do with yourself? Well you make a website, DUH! This was a great way to 
+                            showcase my knowledge and speed up my days spent in isolation.'
+                            content2='Coding this was fun as I had complete freedom. I wanted to make something clean, simple, and effective. I think I did just that. 
+                            On top of making a great site, I also wanted to be sure that it scaled properly to mobile devices. Of course I accpomplished that. Give it a try! This
+                            site is hosted with Github Pages.'
+                            list={['HTML/CSS', 'React']}
+                            head='Knowledge Used:'
+                            />
+
+                        <PopCard
+                            src= {ard}
+                            text="Utilized an Arduino and API to create a nifty and helpful application."
+                            label='Arduino Weather'
+                            path='/'
+                            content='This was completed alone as something that could apply my arduino experience. The thought process was, why wake up and check your 
+                            phone for the weather? WHY NOT CODE SOMETHING THAT WILL ALWAYS SHOW YOU THE WEATHER! So now you see, that is why I made this purpose built weather display.'
+                            content2='There were no inherent problems with this project, but I had to find the best way to get the weather for each day. For that, I utilized a
+                            weather API and set it on an hourly timer for updating the data. This allowed me to cycle the display accurately displaying max temp, min temp, feels like,
+                            and precipitaion.'
+                            list={['Arduino', 'Python']}
+                            head='Knowledge Used:'
+                            />
                             {/* <CardItem 
                             src= {ccboard}
                             text="Contributed to the finalization of a production data warehouse and construction of reports with SSRS."
@@ -60,32 +104,8 @@ export default class Projects extends React.Component {
                             /> */}
                         </ul>
                         <ul className="cards__items">
-                            <PopCard
-                            src= {web}
-                            text="Developed my resume website during COVID-19 quarantine."
-                            label='Resume Website'
-                            path='/'
-                            content='Bored while quarantining for months, what do you do with yourself? Well you make a website, DUH! This was a great way to 
-                            showcase my knowledge and speed up my days spent in isolation.'
-                            content2='Coding this was fun as I had complete freedom. I wanted to make something clean, simple, and effective. I think I did just that. 
-                            On top of making a great site, I also wanted to be sure that it scaled properly to mobile devices. Of course I accpomplished that. Give it a try! This
-                            site is hosted with Github Pages.'
-                            list={['HTML/CSS', 'React']}
-                            head='Knowledge Used:'
-                            />
-                             <PopCard
-                            src= {ard}
-                            text="Utilized an Arduino and API to create a nifty and helpful application."
-                            label='Arduino Weather'
-                            path='/'
-                            content='This was completed alone as something that could apply my arduino experience. The thought process was, why wake up and check your 
-                            phone for the weather? WHY NOT CODE SOMETHING THAT WILL ALWAYS SHOW YOU THE WEATHER! So now you see, that is why I made this purpose built weather display.'
-                            content2='There were no inherent problems with this project, but I had to find the best way to get the weather for each day. For that, I utilized a
-                            weather API and set it on an hourly timer for updating the data. This allowed me to cycle the display accurately displaying max temp, min temp, feels like,
-                            and precipitaion.'
-                            list={['Arduino', 'Python']}
-                            head='Knowledge Used:'
-                            />
+                            
+                            
                         </ul>
                     </div>
                 </div>
