@@ -4,7 +4,7 @@ import './Card.css'
 import ccboard from './images/ccboard.jpg'
 import ard from './images/ard.jpg'
 import obie from './images/obie.jpg'
-import jpm from './images/jpm.png'
+import twilio from './images/Twilio.png'
 
 function Card(props) {
     return (
@@ -15,11 +15,11 @@ function Card(props) {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <PopCard 
-                            src= {jpm}
-                            label= 'JP Morgan Chase & Co.'
-                            text="Built innovative solutions that make a difference for customers, clients, and employees. Created and improved the design, analytics, coding and testing for high-quality software and new products. "
+                            src= {twilio}
+                            label= 'Twilio'
+                            text="I begin with Twilio April 4th and will update this as the experience progresses!"
                             path='/'
-                            content= 'I begin the Software Engineer Program on July 18, 2022! I am excited to learn, collaborate, and network with the best JP Morgan has to offer.'
+                            content= 'I am very excited to learn and join a great company as a Early In Career Software Engineer!'
                             content2= 'Check back later for how my experience in this role continues to shape me!' 
                             head='Skills Utilized:'
                             list={['Check back for more!']}
