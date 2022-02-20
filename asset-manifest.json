@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.8dd48da1.chunk.css",
-    "main.js": "/resume/static/js/main.50c48b55.chunk.js",
-    "main.js.map": "/resume/static/js/main.50c48b55.chunk.js.map",
+    "main.js": "/resume/static/js/main.079f954f.chunk.js",
+    "main.js.map": "/resume/static/js/main.079f954f.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.5bd274de.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.5bd274de.js.map",
     "static/js/2.ab43771b.chunk.js": "/resume/static/js/2.ab43771b.chunk.js",
     "static/js/2.ab43771b.chunk.js.map": "/resume/static/js/2.ab43771b.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.2172a946dfc613228bcb476d50ce6d8c.js": "/resume/precache-manifest.2172a946dfc613228bcb476d50ce6d8c.js",
+    "precache-manifest.f3e23916e4619f6e58c8baa3fc7819d6.js": "/resume/precache-manifest.f3e23916e4619f6e58c8baa3fc7819d6.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.8dd48da1.chunk.css.map": "/resume/static/css/main.8dd48da1.chunk.css.map",
     "static/js/2.ab43771b.chunk.js.LICENSE.txt": "/resume/static/js/2.ab43771b.chunk.js.LICENSE.txt",
     "static/media/F(X).JPG": "/resume/static/media/F(X).4c88af1d.JPG",
     "static/media/ResP1.pdf": "/resume/static/media/ResP1.eb1b2d78.pdf",
+    "static/media/Twilio.png": "/resume/static/media/Twilio.aecfcdc6.png",
     "static/media/ard.jpg": "/resume/static/media/ard.19567d6e.jpg",
     "static/media/ardWeather.PNG": "/resume/static/media/ardWeather.e7853911.PNG",
     "static/media/Hero.css": "/resume/static/media/back.9cbeace3.jpg",
     "static/media/ccboard.jpg": "/resume/static/media/ccboard.904d97ce.jpg",
-    "static/media/jpm.png": "/resume/static/media/jpm.c01fe7af.png",
     "static/media/obie.jpg": "/resume/static/media/obie.7c068e2b.jpg",
     "static/media/obiepoll.jpg": "/resume/static/media/obiepoll.e5cf4df5.jpg",
     "static/media/profile.jpeg": "/resume/static/media/profile.3c9604ff.jpeg",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.5bd274de.js",
     "static/js/2.ab43771b.chunk.js",
     "static/css/main.8dd48da1.chunk.css",
-    "static/js/main.50c48b55.chunk.js"
+    "static/js/main.079f954f.chunk.js"
   ]
 }

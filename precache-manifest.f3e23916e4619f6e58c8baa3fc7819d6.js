@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c58e776a84851f3ce34a91ffdd2c62a0",
+    "revision": "7ef15c8c8f5802d0e972846823fb0b5d",
     "url": "/resume/index.html"
   },
   {
-    "revision": "118780fe0b6f93ebed39",
+    "revision": "507b25bac398119984e1",
     "url": "/resume/static/css/main.8dd48da1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/js/2.ab43771b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "118780fe0b6f93ebed39",
-    "url": "/resume/static/js/main.50c48b55.chunk.js"
+    "revision": "507b25bac398119984e1",
+    "url": "/resume/static/js/main.079f954f.chunk.js"
   },
   {
     "revision": "fc900ccfdbda6584c8c4",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eb1b2d788016d6104bc4ee731ed468c6",
     "url": "/resume/static/media/ResP1.eb1b2d78.pdf"
+  },
+  {
+    "revision": "aecfcdc62778a6da2d4576ba76d0a68a",
+    "url": "/resume/static/media/Twilio.aecfcdc6.png"
   },
   {
     "revision": "19567d6e9c6c8db575e14292ad0f072d",
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "904d97cee2076cc014bcb1b552b6bede",
     "url": "/resume/static/media/ccboard.904d97ce.jpg"
-  },
-  {
-    "revision": "c01fe7af49551aaabf1e6635b1f956dc",
-    "url": "/resume/static/media/jpm.c01fe7af.png"
   },
   {
     "revision": "7c068e2be7aa669db9b34d2c75ef291d",
